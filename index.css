@@ -1363,6 +1363,7 @@ li h2{
     }
     .nav2{
         width: 250px;
+        height: 500px;
         background-color: #000000ac;
         position: absolute;
         flex-direction: column;
@@ -1390,8 +1391,8 @@ li h2{
 .rount i{
     font-size: 23px;
     position: absolute;
-    left: 13px;
-    top: 15px;
+    left: 20px;
+    top: 25px;
     rotate: -30deg;
 }
     .read{
