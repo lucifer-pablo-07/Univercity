@@ -1186,14 +1186,14 @@ li h2{
     }
     .nav2{
         width: 300px;
-        /* height: 455px; */
+        height: 455px;
         background-color: #0000009b;
         position: absolute;
         flex-direction: column;
         top: 60px;
         right: -1px;
-        padding: 30px;
-        gap: 25px;
+        padding: 10px;
+        gap: 10px;
         border-top-left-radius:20px ;
         transform: translateX(100%);
         transition: all 1s;
@@ -1362,18 +1362,18 @@ li h2{
         height: 40px;
     }
     .nav2{
-        width: 250px;
-        min-height: 470px;
+        width: 200px;
+        height: 460px;
         background-color: #000000ac;
         position: absolute;
         flex-direction: column;
-        top: 80px;
+        justify-content: space-around;
+        top: 60px;
         right: -2px;
         padding: 20px;
-        gap: 55px;
+        gap: 10px;
         transform: translateX(100%);
         border-top-left-radius: 20px;
-        border: 2px solid white;
         transition: all 1s;
     }.nav2 a{
         color: white;
@@ -1386,7 +1386,6 @@ li h2{
     object-fit: cover;
     position: relative;
     left: 160px;
-    top: 5%;
 }
 .rount i{
     font-size: 23px;
